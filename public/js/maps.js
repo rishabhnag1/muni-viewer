@@ -12,7 +12,7 @@ var svg = map
     .attr('width', width)
     .attr('height', height)
     // Add zoom and pan
-    .call(d3.zoom().on("zoom", function () {
+    .call(d3.behavior.zoom().on("zoom", function () {
       svg.attr("transform", "translate(" + d3.event.translate + ")" + " scale(" + d3.event.scale + ")")
     }))
     .append('g').attr('id', '#container');
