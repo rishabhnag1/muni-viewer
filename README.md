@@ -4,9 +4,13 @@ Real time positions of San Francisco's buses and trains
 
 # Running locally:
 git clone 
+
 npm install 
+
 npm start
+
 Navigate to localhost://3000
+
 
 
 
